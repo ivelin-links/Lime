@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>LimeAcademy.FizzBuzz.Console</RootNamespace>
+    <AssemblyName>LimeAcademy.FizzBuzz.Console</AssemblyName>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LimeAcademy.FizzBuzz\LimeAcademy.FizzBuzz.csproj" />
+  </ItemGroup>
+
+</Project>

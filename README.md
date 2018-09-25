@@ -1,2 +1,2 @@
 # Lime Academy
-Lime academy test answers
+Lime Academy entrance test answers

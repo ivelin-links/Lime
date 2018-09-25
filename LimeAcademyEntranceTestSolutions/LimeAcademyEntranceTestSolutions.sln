@@ -5,15 +5,21 @@ VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeAcademy.FizzBuzz.Console", "LimeAcademy.FizzBuzz.Console\LimeAcademy.FizzBuzz.Console.csproj", "{294B25BB-4C34-4E1E-8243-5870ACE38FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.FizzBuzz", "LimeAcademy.FizzBuzz\LimeAcademy.FizzBuzz.csproj", "{15C91DF3-B1C4-4891-AF4B-C78B947F499F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeAcademy.FizzBuzz", "LimeAcademy.FizzBuzz\LimeAcademy.FizzBuzz.csproj", "{15C91DF3-B1C4-4891-AF4B-C78B947F499F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.FizzBuzz.Tests", "LimeAcademy.FizzBuzz.Tests\LimeAcademy.FizzBuzz.Tests.csproj", "{F8904C7C-63B4-4227-8038-464FDCADD761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeAcademy.FizzBuzz.Tests", "LimeAcademy.FizzBuzz.Tests\LimeAcademy.FizzBuzz.Tests.csproj", "{F8904C7C-63B4-4227-8038-464FDCADD761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.Braces", "LimeAcademy.Braces\LimeAcademy.Braces.csproj", "{D7BB4482-5749-4963-8ABA-E36429950970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeAcademy.Braces", "LimeAcademy.Braces\LimeAcademy.Braces.csproj", "{D7BB4482-5749-4963-8ABA-E36429950970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.Braces.Console", "LimeAcademy.Braces.Console\LimeAcademy.Braces.Console.csproj", "{DDA7B7A7-06D8-4B56-A82C-F3F853F33CC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeAcademy.Braces.Console", "LimeAcademy.Braces.Console\LimeAcademy.Braces.Console.csproj", "{DDA7B7A7-06D8-4B56-A82C-F3F853F33CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.Braces.Tests", "LimeAcademy.Braces.Tests\LimeAcademy.Braces.Tests.csproj", "{6B42E8D7-74A2-4BDB-9439-B0BB6AC1EBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LimeAcademy.Braces.Tests", "LimeAcademy.Braces.Tests\LimeAcademy.Braces.Tests.csproj", "{6B42E8D7-74A2-4BDB-9439-B0BB6AC1EBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.MovieTitles", "LimeAcademy.MovieTitles\LimeAcademy.MovieTitles.csproj", "{CDAFFF9A-A29F-4B67-B647-1C346FF9322D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.MovieTitles.Console", "LimeAcademy.MovieTitles.Console\LimeAcademy.MovieTitles.Console.csproj", "{FD8F340D-B59F-4EEC-ABE7-78F19064C440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimeAcademy.MovieTitles.Tests", "LimeAcademy.MovieTitles.Tests\LimeAcademy.MovieTitles.Tests.csproj", "{5B73AD3B-8001-4287-B3C4-1D13E2A721CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{6B42E8D7-74A2-4BDB-9439-B0BB6AC1EBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B42E8D7-74A2-4BDB-9439-B0BB6AC1EBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B42E8D7-74A2-4BDB-9439-B0BB6AC1EBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAFFF9A-A29F-4B67-B647-1C346FF9322D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAFFF9A-A29F-4B67-B647-1C346FF9322D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAFFF9A-A29F-4B67-B647-1C346FF9322D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAFFF9A-A29F-4B67-B647-1C346FF9322D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8F340D-B59F-4EEC-ABE7-78F19064C440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8F340D-B59F-4EEC-ABE7-78F19064C440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8F340D-B59F-4EEC-ABE7-78F19064C440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8F340D-B59F-4EEC-ABE7-78F19064C440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B73AD3B-8001-4287-B3C4-1D13E2A721CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B73AD3B-8001-4287-B3C4-1D13E2A721CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B73AD3B-8001-4287-B3C4-1D13E2A721CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B73AD3B-8001-4287-B3C4-1D13E2A721CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

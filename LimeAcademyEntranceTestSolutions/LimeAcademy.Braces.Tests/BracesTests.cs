@@ -3,7 +3,7 @@ using Xunit;
 
 namespace LimeAcademy.Braces.Tests
 {
-    public class UnitTests
+    public class BracesTests
     {
         [Fact]
         public void HappyPath1()

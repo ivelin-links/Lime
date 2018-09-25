@@ -4,7 +4,7 @@ using Xunit;
 
 namespace LimeAcademy.FizzBuzz.Tests
 {
-    public class UnitTests
+    public class FizzBuzzTests
     {
         StringBuilder _outputResult = new StringBuilder();
         Action<string> _stringBuilderOutput => message => _outputResult.Append($"{message}, ");

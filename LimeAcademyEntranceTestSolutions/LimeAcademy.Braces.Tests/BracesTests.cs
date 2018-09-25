@@ -37,5 +37,17 @@ namespace LimeAcademy.Braces.Tests
             Assert.Equal("NO", result[1]);
             Assert.Equal("YES", result[2]);
         }
+
+        [Fact]
+        public void MixedPath2()
+        {
+            var command = new BracesCommand();
+            var result = command.Braces("{[]()}", "{[)]}", "[{()}");
+
+            Assert.Equal(3, result.Length);
+            Assert.Equal("YES", result[0]);
+            Assert.Equal("NO", result[1]);
+            Assert.Equal("NO", result[2]);
+        }
     }
 }

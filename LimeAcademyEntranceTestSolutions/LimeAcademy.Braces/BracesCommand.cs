@@ -47,7 +47,7 @@ namespace LimeAcademy.Braces
                 }
             }
 
-            return true;
+            return !stack.Any();
         }
     }
 }
